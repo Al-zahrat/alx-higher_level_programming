@@ -5,6 +5,6 @@ request(add, function (err, res) {
   if (err) {
     console.log(err);
   } else {
-    console.log('code: ', res.statusCode);
+    console.log(`code: ${res.statusCode}`);
   }
 });
