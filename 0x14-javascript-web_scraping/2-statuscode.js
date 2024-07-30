@@ -1,7 +1,7 @@
 #!/usr/bin/node
 const request = require('request');
 const add = process.argv[2];
-request(add, function (err, res, body) {
+request(add, function (err, res) {
   if (err) {
     console.log(err);
   } else {
